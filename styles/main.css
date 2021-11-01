@@ -1,33 +1,73 @@
 /* the styles for the elements */
+/* the reset selector */
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+html{
+	background-color: white;
+}
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+	width: 600px;
+	margin: 0 auto;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #931420;
+	background-color: #fffded;
+	padding-left: 2em;
 }
 
 /* the styles for the header */
 header img {
 	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 1em;
 }
 
 
 /* the styles for the section */
 main {
-	clear: left;}
+	clear: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
 h1{
-	font-size: 150%
-
+	font-size: 150%;
+	border-bottom-width: 3px;
+	border-bottom-color: #931420;
+	border-bottom-style: solid;
+	border-top-width: 3px;
+	border-top-color: #931420;
+	border-top-style: solid;
+	padding-bottom: .3em;
+	padding-top: .3em;
+	border-radius: 10px;
+	box-shadow: 5px 5px 2px black;
 }
 
 header h3 {
 	font-size: 130%;
-	text-indent: 30px;
-	color: #800000;
 	font-style: italic;
 	clear: left;
+	padding-left: 2em;
+	color: #931420;
+	padding-bottom: .25em;
+
+body h3{
+	color: #931420;
+	}
+
 }
 header h2 {
 	color: #800000;
 	font-size: 170%;
+	padding-bottom: .25em;
+	padding-top: .5em;
 
 }
 
@@ -38,14 +78,59 @@ main h3 {
 
 }
 
+header {
+	border-bottom-width: 3px;
+	border-bottom-color: #931420;
+	border-bottom-style: solid;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+
+}
+
+
 a:hover, a:focus {
 	font-style: italic;
 }
 .shadow {
 	text-shadow: 1px 1px 1px #800000;
 }
+p{
+	padding-bottom: 0.5em;
 
+}
+
+blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+ul{
+	padding-bottom: 0.25em;
+	padding-left: 1.25em;
+}
+
+li{
+	padding-bottom: 0.35em;
+}
+
+header p{
+	padding-top: .5em;
+}
 footer p {
 		text-align: center;
+		border-bottom-width: 3px;
+		border-bottom-color: #931420;
+		border-bottom-style: solid;
+		background-color: #931420;
+		color: white;
+		padding-bottom: 1em;
+		padding-top: 1em;
 }
+
+
+
 /* the styles for the footer */
